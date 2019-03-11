@@ -1,0 +1,316 @@
+body {
+    margin: 30px auto;
+    width: 95%;
+    background-color: WhiteSmoke
+}
+
+body.index {
+    background-image: url("../images/ed.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    /*background-attachment: fixed;*/
+    background-size: 20%;
+}
+
+body.Two_Week_S {
+    background-image: url("../images/Clash_Skeletons.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    /*background-attachment: fixed;*/
+    background-size: 20%;
+}
+
+body.videos {
+    background-image: url("../images/Clash_Healer_infoScreen_1.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    /*background-attachment: fixed;*/
+    background-size: 20%;
+}
+
+body.Lifetime {
+    background-image: url("../images/Clash_Skeletons.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    /*background-attachment: fixed;*/
+    background-size: 20%;
+}
+
+body.Warlog {
+    background-image: url("../images/Clash_Archer_02.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    /*background-attachment: fixed;*/
+    background-size: 15%;
+}
+
+body.Stats_Ar {
+    background-image: url("../images/Clash_Dragon_infoscreen.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    /*background-attachment: fixed;*/
+    background-size: 18%;
+}
+
+body.rules {
+    background-image: url("../images/Clash_Golem2.png");
+    background-repeat: no-repeat;
+    /*background-position: right top;*/
+     background-position: 99% 1%;
+    /*background-attachment: fixed;*/
+    background-size: 18%;
+}
+
+body.jedi_roles {
+    background-image: url("../images/infoScreen_grandwarden.png");
+    background-repeat: no-repeat;
+    /*background-position: right top;*/
+     background-position: 98% 2%;
+    /*background-attachment: fixed;*/
+    background-size: 18%;
+}
+
+
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav ul li, footer ul li {
+    display: inline;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+li {
+    font-size: 1.1em;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 2.5em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+
+span.red{
+    color:blue;
+    font-weight:bold;
+}
+
+span.bold, td.bold{
+    font-weight: bold;
+}
+
+img.clanimage{
+    float:left;
+}
+
+img.clanlogoleft{
+    vertical-align:middle;
+    display: inline;
+    height: 80px;
+    width: 80px;
+}
+
+img.imageright{
+    float:right;
+    width: 17%;
+    height: 17%;
+}
+
+footer {
+    clear: left;
+    border-top: 1px solid #d5d5d5;
+    font-style: italic;
+    font-size: .8em;
+}
+
+img {
+    vertical-align:middle;
+}
+
+img.badge {
+    /*height: 50%;
+    width: 50%;*/
+    height: 35px;
+    width: 35px;
+}
+
+img.mortar {
+    /*height: 50%;
+    width: 50%;*/
+    height: 50px;
+    width: 43px;
+}
+
+div.mytables {
+    overflow: hidden;
+}
+
+table {
+    display: inline-table;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    font-size: 1.1em;
+    min-width: 260px;
+    }
+
+tr:nth-child(even) {
+    background-color: Gainsboro;
+}
+
+tr.lose{
+    background-color: IndianRed;
+}
+
+tr.win{
+    background-color: MediumSeaGreen;
+}
+
+tr.jr{
+    background-color: DeepSkyBlue;
+}
+
+tr.js{
+    background-color: BurlyWood;
+}
+
+table.Warlog th {
+    background-color: DimGray;
+    color: white;
+    padding: 3px 3px 3px 3px;
+}
+
+table.Warlog td {
+    text-align: center;
+    padding: 3px 3px 3px 3px;
+}
+
+table.Gold th {
+    background-color: Gold;
+    color: black;
+}
+
+table.DE th {
+    background-color: Black;
+    color: white;
+    }
+
+table.Game th {
+    background-color: Black;
+    color: white;
+    }
+
+table.Elixir th {
+    background-color: Purple;
+    color: white;
+}
+
+table.Activity {
+    float:left;
+}
+
+table.Activity th {
+    background-color: Green;
+    color: white;
+}
+
+table.Donations th {
+    background-color: Blue;
+    color: white;
+}
+
+table.LegendCups th {
+    background-color: mediumpurple;
+    color: black;
+}
+
+table.Attacks th {
+    background-color: Red;
+    color: white;
+}
+
+table.Defenses th {
+    background-color: Wheat;
+    color: black;
+}
+
+table.Hero th {
+    background-color: Gray;
+    color: white;
+}
+
+table.WarStars th {
+    background-color: DarkRed;
+    color: white;
+}
+
+table.Records  th {
+    background-color: Maroon;
+    color: white;
+}
+
+table.Records td {
+    padding: 3px 3px 3px 3px;
+    font-size: 1.2em;
+
+}
+
+table.Archive  th {
+    background-color: Maroon;
+    color: white;
+}
+
+table.Archive td {
+    padding: 3px 3px 3px 3px;
+    font-size: 1.2em;
+
+}
+
+table.BestTrophies th {
+    background-color: BlanchedAlmond;
+    color: black;
+}
+
+table, th, td {
+   border: 1px solid black;
+}
+
+table.logoandnav{
+    border-collapse: collapse;
+    border:0;
+}
+
+th.logoandnav{
+    border-collapse: collapse;
+    border:0;
+}
+
+tr.logoandnav{
+    border-collapse: collapse;
+    border:0;
+}
+
+td.logoandnav{
+    border-collapse: collapse;
+    border:0;
+}
+
+
+td {
+     vertical-align: middle;
+}
